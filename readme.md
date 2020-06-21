@@ -22,7 +22,7 @@ ftqq_id = ''
 
 3. 如果你的服务器/本地上已经安装有```requirements.txt```的各种库，你应该可以直接运行``` python vehicle.py ```进行测试；同时可以设置Crontab来让这个脚本变成定时任务。
 
-我在使用的时候将其封装到了Docker里面，目前没有将Docker上传的计划。
+我在使用的时候将其封装到了Docker里面，目前没有将Docker image上传的计划。
 
 如要向我一样在Docker内运行请执行如下操作：
 - 安装并启动Docker
