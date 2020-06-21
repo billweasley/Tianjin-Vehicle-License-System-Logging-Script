@@ -1,0 +1,8 @@
+ numpy
+ matplotlib
+ pydot
+ tqdm
+ beautifulsoup4
+ tensorflow==2.2.0
+ requests
+ Image
