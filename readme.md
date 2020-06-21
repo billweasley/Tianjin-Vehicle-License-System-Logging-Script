@@ -46,7 +46,7 @@ docker run -d --name <your docker container name> <your docker image name>
 # e.g.
 # docker run -d --name vehicle-tf vehicle-logging-tf-private
 ```
-- 如果脚本运行正常，接下来你应该能在每天你设定的时间在你的微信看到通知，如果没有你可以检测你的docker container，下面的命令或许会有用处：
+- 如果脚本运行正常，接下来你应该能在每天你设定的时间在你的微信看到通知，如果没有你可以检查你的docker container，下面的命令或许会有用处：
 ```bash
 # Open bash in your container
 docker exec -ti <your docker container name> bash 
