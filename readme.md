@@ -9,12 +9,12 @@
 
 0. 首先你需要像我一样在进行牌照摇号，所以你会有调控管理系统上注册的手机号和密码; 你还需要一个Server酱的```SCKEY```和要发送到的微信号, 在他们的[网站](http://sc.ftqq.com/3.version)上可以得到```SCKEY```和绑定账号。
 
-1. 打开 ```vehicle.py```, 你应该可以看到下面三行。其中```phone```是你在调控系统上的电话号码，
-```password```是你在调控系统上的密码，```ftqq_id```是你的Server酱```SCKEY```。
+1. 打开 ```vehicle.py```, 你应该可以看到下面三行。其中```phone_list```是调控系统上的电话号码(账号)，
+```password_list```是对应的在调控系统上的密码，```ftqq_id```是你的Server酱```SCKEY```。
 
 ```python
-phone = ''
-password = ''
+phone_list = ['1000000000']
+password_list = ['12345']
 ftqq_id = ''
 ```
 
@@ -38,13 +38,13 @@ cd <the path where the repository are>
 docker build -t <your docker image name> . 
 # e.g.
 # cd vehicle_logging_public
-# docker build -t vehicle-logging-tf-private:latest . 
+# docker build -t vehicle-logging-tf-public:latest . 
 ```
 - 运行 Docker container
 ```bash
 docker run -d --name <your docker container name> <your docker image name>
 # e.g.
-# docker run -d --name vehicle-tf vehicle-logging-tf-private
+# docker run -d --name vehicle-tf vehicle-logging-tf-public
 ```
 - 如果脚本运行正常，接下来你应该能在每天你设定的时间在你的微信看到通知，如果没有你可以检查你的docker container，下面的命令或许会有用处：
 ```bash
