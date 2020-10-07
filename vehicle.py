@@ -154,7 +154,7 @@ for phone_index, phone in enumerate(phone_list):
     data[0].append(application_state[1])
     info_dict = dict(zip(header_cols, data[0]))
     notification_info = str({
-            "手机": str(phone)
+            "手机": str(phone),
             "请求时间": str(datetime.datetime.now()),
             "申请时间": info_dict["申请时间"],
             "申请状态": info_dict["申请状态"]
