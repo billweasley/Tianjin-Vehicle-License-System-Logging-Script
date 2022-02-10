@@ -3,6 +3,6 @@
  pydot
  tqdm
  beautifulsoup4
- tensorflow==2.2.1
+ tensorflow==2.5.3
  requests
  Image
