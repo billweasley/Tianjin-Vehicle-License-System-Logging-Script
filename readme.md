@@ -10,9 +10,9 @@
 
 **注意： 因为许久没有维护，牌照调控官网的二维码已经更新过，需要重新训练模型。**
 
-早期验证码示例：<img src="./doc/old_cap.png" width="80">
+早期验证码示例：<img src="./img/old_cap.png" width="80">
 
-当前验证码示例：![](./doc/new_cap.png)
+当前验证码示例：![](./img/new_cap.png)
 
 ===
 
@@ -37,9 +37,9 @@ python ./vehicle_license_checker/vehicle_status_check.py --config ./config.yaml
 (因为模型失效，目前暂时需要手动填入验证码。)  
 5. 运行成功以后应该能看到:
 
-![](./doc/result.png)
+![](./img/result.png)
 
 对应网站截图：
-![](./doc/official.png)
+![](./img/official.png)
 
 ===
