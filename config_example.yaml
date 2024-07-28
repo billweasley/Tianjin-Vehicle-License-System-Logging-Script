@@ -1,0 +1,5 @@
+model_path: /home/haoxuan/Tianjin-Vehicle-License-System-Logging-Script/model/ctc_best.h5
+selenium_chrome_driver_path: /home/haoxuan/Tianjin-Vehicle-License-System-Logging-Script/bin/chromedriver
+phone: "18612345678"
+password: test
+ft_qqid: "123465"
